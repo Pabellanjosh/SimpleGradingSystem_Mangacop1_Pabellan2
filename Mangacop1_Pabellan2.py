@@ -1,0 +1,16 @@
+# Prompt the user  to enter Student Full Name, ID#, Course, Section
+Name = input("Full name: ")
+ID = input(" ID#: ")
+Course = input(" Course: ")
+Section = input(" Section: ")
+a1 = eval(input("Enter first quarter: "))
+a2 = eval(input("Enter second quarter: "))
+a3 = eval(input("Enter third quarter: "))
+a4 = eval(input("Enter fourth quarter: "))
+avg = (a1 + a2 + a3 + a4)/4
+print("Your details are")
+print("Full name is " + Name)
+print("ID# is " + ID)
+print("Course is " + Course)
+print("Section is" + Section)
+print("Average is: " + str(avg))
